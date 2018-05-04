@@ -1,0 +1,9 @@
+INSTRUKCJA:
+ -- Start --
+ uruchamia grê od 1. poziomu
+ w przypadku wygranej nastepny poziom wlacza sie automatycznie
+ w przypadku przegranej gra konczy sie sama
+ -- Poziom 1--
+ uruchamia gre od 1. poziomu
+ -- Poziom 2 --
+ uruchamia gre od 2. poziomu

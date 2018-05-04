@@ -1,0 +1,63 @@
+/*private void tick(){
+		
+		player.tick();
+		return;
+	}
+	
+	private void render(){
+		BufferStrategy gs= getBufferStrategy();
+		if(gs == null){
+			createBufferStrategy(3);
+		return;
+	}
+		Graphics g = gs.getDrawGraphics();
+		g.setColor(Color.black);
+		g.fillRect(0, 0, 320, 320);
+		player.render(g);
+		g.dispose();
+		gs.show();
+		
+	}*/
+
+
+/*@Override
+	public void run() {
+
+		int fps = 0;
+		double timer = System.currentTimeMillis();
+		long lastTime=System.nanoTime();
+		double targetTick = 60.0;
+		double delta = 0;
+		double ns=1000000000/targetTick;
+		
+		while(isRuning){
+			long now = System.nanoTime();
+			delta+=(now - lastTime) / ns;
+			lastTime = now;
+			
+			while(delta >= 1){
+				tick();
+				render();
+				fps++;
+				delta--;
+			}
+			if(System.currentTimeMillis() - timer >= 1000){
+				System.out.println(fps);
+				fps=0;
+				timer+=1000;
+			}
+			
+			
+		}
+		
+	}*/
+
+if(a.getKeyCode() == KeyEvent.VK_RIGHT) player.right=true;
+		if(a.getKeyCode() == KeyEvent.VK_LEFT) player.left=true;
+		if(a.getKeyCode() == KeyEvent.VK_UP) player.up=true;
+		if(a.getKeyCode() == KeyEvent.VK_DOWN) player.down=true;
+
+	if(a.getKeyCode() == KeyEvent.VK_RIGHT) player.right=false;
+		if(a.getKeyCode() == KeyEvent.VK_LEFT) player.left=false;
+		if(a.getKeyCode() == KeyEvent.VK_UP) player.up=false;
+		if(a.getKeyCode() == KeyEvent.VK_DOWN) player.down=false;
